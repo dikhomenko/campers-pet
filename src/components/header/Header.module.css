@@ -1,0 +1,35 @@
+.header_wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 450px;
+}
+
+.navigation_link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.header_navigation {
+  justify-content: center;
+  display: flex;
+  gap: 32px;
+  border: none;
+}
+
+.header_logo {
+  margin-left: 64px;
+  width: 136px;
+  height: 16px;
+}
+
+.active_link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: var(--button-hover-color);
+}

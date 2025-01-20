@@ -1,0 +1,53 @@
+
+.background_hero {
+  height: 696px;
+  background-image: image-set(
+    url('../../img/hero/hero_1x.jpg') 1x,
+    url('../../img/hero/hero_2x.jpg') 2x
+  );
+}
+
+.background_hero {
+  background-image: image-set(
+    url('../../img/hero/hero_webp_1x.webp') 1x,
+    url('../../img/hero/hero_webp_2x.webp') 2x
+  );
+}
+
+.title {
+  margin-left: 64px;
+  padding-top: 260px;
+  color: var(--input-background-color);
+  text-align: left;  
+}
+.hero_title_main {
+  line-height: 32px;
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 600;  
+}
+.hero_title_subtext {  
+  font-weight: 600;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+.hero_button {
+  color: var(--background-white);
+  background-color: var(--primary-button-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  margin-top: 40px;
+  padding: 16px 60px 16px 60px;
+  gap: 10px;
+  border-radius: 200px;  
+  border: none;
+  cursor: pointer;  
+  transition: var(--default-transition);
+}
+
+.hero_button:hover {
+  background-color: var(--button-hover-color);
+}

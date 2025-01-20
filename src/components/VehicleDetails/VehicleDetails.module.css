@@ -1,0 +1,133 @@
+.padded_container {
+  padding: 64px;
+  padding-top: 48px;
+  padding-bottom: 80px;
+}
+
+.info_container {
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  
+}
+
+.item_name {  
+  text-align: left;
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.inline_rating {
+  border-bottom: 1px solid var(--primary-color);
+  display: inline;
+  margin-right: 16px;  
+}
+
+.inline_location {
+  display: inline;
+}
+
+.flex_center_row {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;  
+}
+
+.item_price{
+  text-align: left;
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;  
+}
+
+.primary_icon {
+  fill: var(--primary-color);
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;  
+}
+
+.inline_rating_icon {
+  margin-right: 4px;
+}
+
+.gallery_image {
+  border: 1px solid var(--primary-gray);
+  cursor: pointer;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;  
+}
+
+.flex_gallery_container {
+  margin-bottom: 28px;
+}
+
+.flex_gallery {
+  gap: 48px;
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.flex_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_description {  
+  text-align: left;
+  color: var(--text-color);
+  margin-bottom: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.centered_modal {
+  position: relative;  
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.modal_backdrop {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);  
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal_close_button {  
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal_image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+}
+
+
+.modal_close_button:hover {
+  color: #ff0000;
+}
+

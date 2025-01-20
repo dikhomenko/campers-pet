@@ -1,6 +1,7 @@
 # Campers of your dreams - pet project
-Web application for travel trucks service, where you can find everything you want in our catalog
 
+Web application is a catalog for camper van rentals, where you can find
+everything you want in the catalog
 
 ## How to Install
 
@@ -33,4 +34,3 @@ Web application for travel trucks service, where you can find everything you wan
    ```bash
    npm run preview
    ```
-
